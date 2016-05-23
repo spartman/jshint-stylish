@@ -27,8 +27,8 @@ module.exports = {
 
 			var line = [
 				'',
-				chalk.gray('line ' + err.line),
-				chalk.gray('col ' + err.character),
+				chalk.green('line ' + err.line),
+				chalk.green('col ' + err.character),
 				isError ? chalk.red(err.reason) : chalk.blue(err.reason)
 			];
 
